@@ -56,7 +56,7 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .paragraph {
@@ -66,7 +66,7 @@ body {
 h1 {
     font-size: 22px;
     text-align: center;
-    
+    text-shadow: 45% black;
     margin-bottom: 22px;
 }
 
