@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Outfit';
+    src: url('./Caveat,Outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+    /* You can include additional font formats (e.g., woff, woff2) for better browser compatibility */
+}
+
+body {
+    font-family: 'Outfit', sans-serif; /* Use the imported font family */
+    max-width: 1440px;
+    background-color: #D5E1EF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    background-color: white;
+    width: 320px;
+    height: 497px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 375px) {
+    .card {
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+    }
+}
+
+.image-container {
+    width: 288px;
+    height: 288px;
+    padding-top: 16px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.text p, .text h1 {
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.heading, .paragraph {
+    margin: 2%;
+}
+
+h1 {
+    font-size: 22px;
+    text-align: center;
+    text-shadow: 25% black;
+    margin-bottom: 22px;
+}
+
+p {
+    color: #979797;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
