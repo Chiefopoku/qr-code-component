@@ -42,8 +42,8 @@ body {
     width: 288px;
     height: 288px;
     padding-top: 16px;
-    border-radius: 5px;
     overflow: hidden;
+    padding-bottom: 12px;
 }
 
 .image {
@@ -60,8 +60,8 @@ body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-.heading, .paragraph {
-    margin: 2%;
+.paragraph {
+    padding: 0%;
 }
 
 h1 {
